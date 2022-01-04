@@ -1,16 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;400;500;700;800&family=Island+Moments&display=swap');
+
 body{
     margin:0;
+    
     /* background-image: url(./imagem/flores_branca.jpg); */
-    background-repeat: no-repeat;
-    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
 }
 
 nav{
     /* border: 10px; */
-    background-color:rgb(216, 240, 162);
-    height: 45px;
+    background-color:#5ed38b;
+    height: 65px;
     width: 100%;
     color:white;
+    margin-top: 0%;
+    
+}
+a{
+    text-decoration: none;
 }
 
 .menu ul li {
@@ -68,13 +76,14 @@ nav{
     box-shadow: 0px 10px 40px #00000056;
 }
 
-.card-login > h1{
+.card-login > h1 {
     color:#77ff88;  
     font-weight: 800;
     margin:0;
 }
 
 .textfield{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -104,3 +113,46 @@ nav{
 .textfield > input ::placeholder{
     color:#f0ffff94;
 }
+
+.btn-login{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#2b134b;
+    background: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+}
+
+.cadastro{
+    background:#0c090c;
+    height: 45vw;
+    color: white;
+    display: inline-block;
+    padding-top: 2px;
+}
+.erro{
+    background:#0c090c;
+    height: 45vw;
+    color: white;
+    display: inline-block;
+    padding-top: 2px;
+}
+.principal{
+    background:#0c090c;
+    height: 45vw;
+    color: white;
+    display: flex;
+    padding-top: 2px;
+    border-bottom: 10%;
+    
+  
+}
+
