@@ -156,4 +156,52 @@ a{
     
   
 }
+.produtos{
+    display:flex;
+    /* flex-direction: row; */
+    margin-right: 10px;
 
+    background-color:  #00ff88;
+}
+.bloco1{
+    display:inline-block;
+    width: 200px;
+    height: 170px;
+    margin:2% 4% 2% 2%;
+    background-color:  #ff00d4;
+    padding-left: 35px;
+    
+}
+.bloco4{
+    display:inline-block;
+    background-color: #5ed38b;
+    width: 15%;
+    height: 170px;
+    margin:2% 8% 2% 2%;
+    padding-left: 35px;
+    
+    
+}
+
+.bloco3{
+    display:inline-block;
+    background-color: #2b134b;
+    display:inline-block;
+    width: 200px;
+    height: 170px;
+    margin:2% 4% 2% 2%;
+    padding-left: 35px;
+    
+    
+}
+
+.bloco2{
+    display:inline-block;
+    background-color: #ec840d;
+    display:inline-block;
+    width: 200px;
+    height: 170px;
+    margin:2% 4% 2% 2%;
+    padding-left: 35px;
+    
+}
