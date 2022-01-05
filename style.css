@@ -9,13 +9,12 @@ body{
 }
 
 nav{
-    background-color:#5ed38b;
+    background-color:#201b2c;
     height: 65px;
     width: 100%;
-    color:white;
     padding-top:6%;
-    margin: 0px 1px;
-     
+   
+
 }
 a{
     text-decoration: none;
@@ -23,19 +22,32 @@ a{
 
 footer{
     background-color: hsl(266, 64%, 61%);
-    padding-block: 1%;
+    padding-block: 2px;
     margin-right: 0px;
-    
+    padding-top:1px;  
+    margin-top: 25px;
+}
+hr{
+     size:150px;
+}
+
+ .anterior{
+        text-decoration: line-through;
+        color:red;
+    }
+.navegacao{
+    color:white;
 }
 .menu ul li {
     display: inline-block;
     padding-right: 150px;
     padding-left: 2px;
     padding-top: 14px;
-    margin:0px   
+    margin:0px;
+    color: white; 
 }
 .menu ul{
-    padding-left: 350px;
+    padding-left:150px;
 }
 .novidades ul li{
     display: inline-block;
@@ -168,6 +180,10 @@ footer{
     background-color:#27b61a;
     
 }
+/* div:hover { border: solid 5px rgb(185, 212, 199);
+    border-radius:1px;} */
+ 
+
 .bloco1{
     display:inline-block;
     width: 200px;
@@ -175,7 +191,6 @@ footer{
     margin:2% 4% 2% 4%;
     /* background-color:  #ff00d4; */
     padding-left: 35px;
-    
 }
 .bloco4{
     display:inline-block;
@@ -222,4 +237,16 @@ footer{
     border-radius: 10%;
     border-bottom-left-radius: 35px;
     
+}
+.breadcrumb{
+    padding:0px 1px 10px 15px;
+}
+.breadcrumb li {
+    list-style: none;
+}
+.mapasite{
+    margin:25px 3px 100px 1px ;
+    display: inline-block;
+    padding-inline-end: 45px;
+    color:white;
 }
