@@ -9,28 +9,34 @@ body{
 }
 
 nav{
-    /* border: 10px; */
     background-color:#5ed38b;
     height: 65px;
     width: 100%;
     color:white;
-    padding-top: 6%;
-    margin: 1px  3px 1px 3px ;
-    
+    padding-top:6%;
+    margin: 0px 1px;
+     
 }
 a{
     text-decoration: none;
 }
 
+footer{
+    background-color: hsl(266, 64%, 61%);
+    padding-block: 1%;
+    margin-right: 0px;
+    
+}
 .menu ul li {
     display: inline-block;
-    padding-right: 5px;
-    padding-left: 235px;
+    padding-right: 150px;
+    padding-left: 2px;
     padding-top: 14px;
-   
-   
+    margin:0px   
 }
-
+.menu ul{
+    padding-left: 350px;
+}
 .novidades ul li{
     display: inline-block;
 
@@ -153,31 +159,30 @@ a{
     display: flex;
     padding-top: 2px;
     border-bottom: 10%;
-    
   
 }
 .produtos{
     display:flex;
     /* flex-direction: row; */
     margin-right: 10px;
-
-    background-color:  #00ff88;
+    background-color:#27b61a;
+    
 }
 .bloco1{
     display:inline-block;
     width: 200px;
     height: 170px;
-    margin:2% 4% 2% 2%;
-    background-color:  #ff00d4;
+    margin:2% 4% 2% 4%;
+    /* background-color:  #ff00d4; */
     padding-left: 35px;
     
 }
 .bloco4{
     display:inline-block;
-    background-color: #5ed38b;
+    /* background-color: #5ed38b; */
     width: 15%;
     height: 170px;
-    margin:2% 8% 2% 2%;
+    margin:8% 4% 2% 4%;
     padding-left: 35px;
     
     
@@ -185,11 +190,11 @@ a{
 
 .bloco3{
     display:inline-block;
-    background-color: #2b134b;
+    /* background-color: #2b134b; */
     display:inline-block;
     width: 200px;
     height: 170px;
-    margin:2% 4% 2% 2%;
+    margin:2% 2% 2% 2%;
     padding-left: 35px;
     
     
@@ -197,11 +202,24 @@ a{
 
 .bloco2{
     display:inline-block;
-    background-color: #ec840d;
+    /* background-color: #ec840d; */
     display:inline-block;
     width: 200px;
     height: 170px;
     margin:2% 4% 2% 2%;
     padding-left: 35px;
+    
+}
+.blocox{
+    display:inline-block;
+    background-color: #747079;
+    opacity: 0.8;
+    width: 200px;
+    height: 170px;
+    margin:2% 2% 2% 4%;
+    padding-left: 35px;
+    margin-bottom: 20%;
+    border-radius: 10%;
+    border-bottom-left-radius: 35px;
     
 }
