@@ -2,10 +2,7 @@
 
 body{
     margin:0;
-    
-    /* background-image: url(./imagem/flores_branca.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: 100%; */
+
 }
 
 nav{
@@ -13,22 +10,31 @@ nav{
     height: 65px;
     width: 100%;
     padding-top:6%;
-   
+    justify-content: space-between;
 
 }
 a{
     text-decoration: none;
+  
 }
 
 footer{
-    background-color: hsl(266, 64%, 61%);
-    padding-block: 2px;
-    margin-right: 0px;
-    padding-top:1px;  
-    margin-top: 2px;
+    background-color:#f9f7fd;
+    /* padding-block: 2px; */
+    margin-right: 1px;
+    padding-top:12px;  
+    margin-top: 130px;
 }
 hr{
      size:150px;
+}
+login{
+    width: 100vw;
+    height: 100vh;
+    background: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
  .anterior{
@@ -39,22 +45,25 @@ hr{
     }
 .navegacao{
     color:white;
+    margin:2px 2px 2px 8px ;
+    /* display: inline-block; */
+    /* padding-inline-end: 45px; */
 }
 .menu ul li {
     display: inline-block;
-    padding-right: 150px;
+    padding-right: 15px;
     padding-left: 2px;
     padding-top: 14px;
     margin:0px;
     color: white; 
 }
 .menu ul{
-    padding-left:150px;
+    padding-left:15px;
 }
-.novidades ul li{
+/* .novidades ul li{
     display: inline-block;
 
-}
+} */
 .main-login{
     width: 100vw;
     height: 100vh;
@@ -63,6 +72,7 @@ hr{
     justify-content: center;
     align-items: center;
 }
+
 
 .left-login{
     width: 50vw;
@@ -84,6 +94,19 @@ hr{
     justify-content: center;
     align-items: center;
 }
+/* .card-produto{
+    width: 60%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    /*padding:30px 35px ;
+    background:#2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 1px 40px #00000056;*/
+    
+
+
 
 .card-login{
     width: 60%;
@@ -151,6 +174,24 @@ hr{
     box-shadow: 0px 10px 40px -12px #00ff8052;
 
 }
+/* .btn-comprar{
+    width: 80%;
+    height: 50px;
+    position:relative;
+    padding:0%;
+    margin:0px 0px 8px;
+    border: none;
+    border-radius:15px;
+    /* outline: none; 
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color:#f3f3f3;
+    background: #0bac4e;
+    cursor: pointer;
+    box-shadow: 0px 1px 1px 20px #08eb8152;
+    justify-content:center;
+} */
 
 .cadastro{
     background:#0c090c;
@@ -175,44 +216,111 @@ hr{
     border-bottom: 10%;
   
 }
-.produtos{
+/* .produtos{
     display:flex;
-    /* flex-direction: row; */
+    /* flex-direction: row; 
     margin-right: 10px;
     background-color:#27b61a;
+    border-radius: 20px;
     
+} */
+main div:nth-child(0):hover { border: solid 1px rgb(240, 233, 237);
+    border-radius:2px;
+
 }
-/* div:hover { border: solid 5px rgb(185, 212, 199);
-    border-radius:1px;} */
+main div:nth-child(2):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    /* margin: 10px 10px 10px 10px; */
+    margin-left: 20px;
+    margin-right:20px; 
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+}
+main div:nth-child(3):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+}
+main div:nth-child(4):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+
+}
+main div:nth-child(5):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+
+}
+main div:nth-child(6):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+
+}
+main div:nth-child(7):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+
+}
+main div:nth-child(8):hover { border: solid 1px rgb(210, 223, 216);
+    border-radius:2px;
+    -webkit-box-shadow: 9px 7px 5px 7px rgb(210, 223, 216);
+    -moz-box-shadow:    9px 7px 5px 7px rgb(210, 223, 216);
+    box-shadow:         9px 7px 5px 7px rgb(210, 223, 216);
+
+}
  
 
 
 .blocox{
     display:inline-block;
     /* overflow: hidden; */
-    /* background-color: #747079; */
-    /* opacity: 10; */
-    width: 200px;
-    height: 170px;
-    margin:2% 2% 2% 4%;
-    padding-left: 35px;
-    margin-bottom: 20%;
-    border-radius: 0%;
-    border-bottom-left-radius: 0px;
+    background-color:white;
+    opacity: 100%;
+    width: 20%;
+    height: 300%;
+    margin:2% 1% 20% 4%;
+    padding-left: 65px ;
+    margin-bottom: 2%;
+    border-radius: 30px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
     
+      
+
+}
+.valor{
+    margin: 10px 25px 50px 50px;
+}
+.precoatual{
+    font-size: arial,tahoma,verdana,sans-serif;
+    color:#404040;
+    font-size:12px;
+    line-height: 15px;
 }
 .blocox img{
     max-width: 100%;
     -moz-transition: all 0.3s;
     -webkit-transition: all 0.3s; 
     transition:all 0.3s;
+  
 }
 .blocox:hover img{
     -moz-transform:scale(1.1);
     -webkit-transform: all 0.3s; 
      transform: scale(1.1); 
+     
 }
-.descricao{
+/* .descricao{
     position:relative; 
     left:2%;
     right: 60%;
@@ -225,7 +333,7 @@ hr{
     font-weight:700;
      text-shadow: 0 1px 3px rgba(0,0,0,); 
      background-color: yellow;
-}
+} */
 .breadcrumb{
     padding:0px 1px 10px 15px;
 }
@@ -234,8 +342,9 @@ hr{
     margin:0px 15px;
 }
 .mapasite{
-    margin:25px 3px 100px 1px ;
+    margin:25px 3px 100px 120px ;
     display: inline-block;
     padding-inline-end: 45px;
-    color:white;
+    color:grey;
 }
+
